@@ -1,0 +1,71 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffdd57;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+header p {
+  color: #666;
+  font-style: italic;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.reason {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-left: 5px solid #ffdd57;
+  border-radius: 5px;
+}
+
+.reason h2 {
+  font-size: 1.5em;
+  color: #ff6b6b;
+}
+
+.reason p {
+  font-size: 1em;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+footer p:last-child {
+  font-size: 0.8em;
+  color: #999;
+}
